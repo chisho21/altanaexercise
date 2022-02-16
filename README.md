@@ -1,3 +1,12 @@
+# Status
+- [X] VPC w/ CIDRs, DNS, GWs, and AZs
+- [X] 3 x /24 private subnets
+- [X] EKS Cluster w/ 3 workers
+- [ ] ALB
+- [X] Deployment for search-api
+- [X] Deployment for graph-api
+- [ ] Detailed Instructions
+
 # altanaexercise
 
 Using Terraform Configuration Language, or one of the Terraform CDK languages, create a workspace for AWS with the following resources:
@@ -17,3 +26,11 @@ Your deliverable should be a git repository (zipped and attached) with the follo
 -	Your Kubernetes scripts or manifests
 -	A README describing how to run your scripts, install prerequisites, etc
 -	Clean code that's easy to read and reason about. It doesn't need to be performant, but it should be simple and correct.
+
+# PreRequisites
+choco install awscli
+choco install kubernetes-cli
+aws configure
+
+
+
