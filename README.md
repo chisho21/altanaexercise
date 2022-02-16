@@ -28,9 +28,11 @@ Your deliverable should be a git repository (zipped and attached) with the follo
 -	Clean code that's easy to read and reason about. It doesn't need to be performant, but it should be simple and correct.
 
 # PreRequisites
+```
 choco install awscli
 choco install kubernetes-cli
 aws configure
+```
 
 
 
